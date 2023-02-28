@@ -1,0 +1,14 @@
+body {
+	background-color: cornsilk;
+    text-align: center;
+    font-family: Barlow; color:rgb(0, 0, 0);
+}
+main {
+	border: solid 10px color;
+	display: flex;
+	justify-content: flex-end;
+    justify-content: space-around;
+}
+p {
+	background-color: moccasin;
+}

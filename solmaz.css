@@ -1,0 +1,33 @@
+#smoke{
+	background-color: moccasin;
+    animation-name: slidein, bounce;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  body {
+    font-family: Barlow;
+  }

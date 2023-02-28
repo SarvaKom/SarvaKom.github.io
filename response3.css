@@ -14,17 +14,3 @@
   body {
     font-family: Barlow;
   }
-
-  <style>
-        .vertical-text {
-            writing-mode: vertical-lr;
-            text-orientation: upright;
-            background-color:moccasin;
-        }
- 
-        @supports(text-orientation:upright){
-            .vertical-text{
-                background-color: tan;
-            }
-        }
-</style>

@@ -1,0 +1,19 @@
+html {
+    background-color: DeepSkyBlue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: auto;
+  /*overflow-y: hidden;*/
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  max-width:100%;
+  height:auto;
+  background-size: cover;
+}

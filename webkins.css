@@ -2,7 +2,11 @@ html,
 body {
   margin: 0;
   padding: 0;
+  max-width:100%;
+  height: auto;
   overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: cover;
 }
 
 header {
@@ -38,9 +42,9 @@ body #all {
 }
 .slider__nav-bar {
   position: absolute;
-  width: 180px;
-  height: 180px;
-  bottom: -90px;
+  width: 160px;
+  height: 160px;
+  bottom: 160px;
   left: 50%;
   transform: translateX( -50% );
   border-radius: 90px;
@@ -151,10 +155,10 @@ body #all {
   position: relative;
   display: block;
   width: 100%;
-  max-width: 640px;
+  max-width: 160px;
   height: auto;
-  top: 50%; left: 50%;
-  transform: translate( -50%, -50% );
+  top: 45%; left: 20%;
+  transform: translate( -50%, -50%, -50% );
 }
 .slider-list__item .main__element {
   position: absolute;
@@ -168,9 +172,9 @@ body #all {
   position: relative;
   display: block;
   width: 100%;
-  max-width: 320px;
+  max-width: 160px;
   height: auto;
-  top: 50%; left: 50%;
+  top: 25%; left: 50%;
   transform: translate( -50%, -50% );
 }
 .slider-list__item .front__element {
@@ -186,10 +190,10 @@ body #all {
   position: relative;
   display: block;
   width: 100%;
-  max-width: 640px;
+  max-width: 160px;
   height: auto;
-  top: 50%; left: 50%;
-  transform: translate( -50%, -50% );
+  top: 45%; left: 65%;
+  transform: translate( -50%, -50%, -50% );
 }
 .slider-list__item .title__element {
   position: absolute;
@@ -232,11 +236,11 @@ body #all {
 .slider-list__item .more__element .content .headline {
   position: relative;
   display: block;
-  max-width: 240px;
+  max-width: 300px;
   font-family: 'Barlow';
   color: white;
   font-size: 38px;
-  line-height: 46px;
+  line-height: 30px;
 }
 .slider-list__item .more__element .content .excerpt {
   position: relative;
@@ -257,7 +261,7 @@ body #all {
   border-radius: 24px;
   font-size: 16px;
   line-height: 24px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.06);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.05);
   transition: all 0.4s ease;
 }
 .slider-list__item .more__element .content .link .fill {
